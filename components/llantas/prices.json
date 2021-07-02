@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_llantas_prices",
+  "info": {
+    "name": "prices",
+    "icon": "money-bill-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

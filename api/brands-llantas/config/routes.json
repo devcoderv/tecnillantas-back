@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/brands-llantas",
+      "handler": "brands-llantas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brands-llantas/count",
+      "handler": "brands-llantas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brands-llantas/:id",
+      "handler": "brands-llantas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/brands-llantas",
+      "handler": "brands-llantas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/brands-llantas/:id",
+      "handler": "brands-llantas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/brands-llantas/:id",
+      "handler": "brands-llantas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/llantas",
+      "handler": "llantas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/llantas/count",
+      "handler": "llantas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/llantas/:id",
+      "handler": "llantas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/llantas",
+      "handler": "llantas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/llantas/:id",
+      "handler": "llantas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/llantas/:id",
+      "handler": "llantas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

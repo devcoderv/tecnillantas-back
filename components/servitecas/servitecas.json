@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_servitecas_servitecas",
+  "info": {
+    "name": "servitecas",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Cuidad": {
+      "type": "string"
+    },
+    "andress": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "gps": {
+      "type": "string"
+    }
+  }
+}

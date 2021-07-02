@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/servitecas",
+      "handler": "servitecas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/servitecas",
+      "handler": "servitecas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/servitecas",
+      "handler": "servitecas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

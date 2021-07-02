@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "servitecas",
+  "info": {
+    "name": "Servitecas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "servitecas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "servitecas.servitecas"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "llantas",
+  "info": {
+    "name": "llantas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "profile": {
+      "type": "integer"
+    },
+    "rin": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "cars": {
+      "collection": "cars",
+      "via": "llantas"
+    },
+    "use": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "brands_llanta": {
+      "model": "brands-llantas"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "feature": {
+      "type": "richtext"
+    },
+    "benefits": {
+      "type": "richtext"
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "llantas.prices"
+    },
+    "vargaIndex": {
+      "type": "integer"
+    },
+    "maximumLoadTire": {
+      "type": "decimal"
+    },
+    "speedIndex": {
+      "type": "integer"
+    },
+    "maximumSpeed": {
+      "type": "integer"
+    }
+  }
+}
